@@ -1,0 +1,10 @@
+com/example/jobby2/databinding/ActivitySignupBinding.java
+ com.example.jobby2.databinding.ActivitySignupBinding
+com/example/jobby2/BuildConfig.java
+ com.example.jobby2.BuildConfig
+com/example/jobby2/databinding/ActivityMainBinding.java
+ com.example.jobby2.databinding.ActivityMainBinding
+com/example/jobby2/databinding/ActivityChatBinding.java
+ com.example.jobby2.databinding.ActivityChatBinding
+com/example/jobby2/databinding/ActivitySplashBinding.java
+ com.example.jobby2.databinding.ActivitySplashBinding

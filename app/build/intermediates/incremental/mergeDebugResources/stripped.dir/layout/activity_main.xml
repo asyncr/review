@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:srcCompat="@drawable/welcome" />
+
+    <EditText
+        android:id="@+id/correoeditTextText"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:textSize="19sp"
+        android:fontFamily="@font/normal"
+        android:inputType="textPersonName"
+        android:hint="Correo Electronico"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <EditText
+        android:id="@+id/contrasenaeditText"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
+        android:paddingLeft="8dp"
+        android:textSize="19sp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="Contraseña"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/normal"
+        android:textColorHighlight="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correoeditTextText"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <Button
+        android:id="@+id/btnIsesion"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/green_background"
+        android:fontFamily="@font/bold"
+        android:text="Iniciar sesión"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaeditText"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/mypurple"
+        android:fontFamily="@font/bold"
+        android:text="Crear Cuenta"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIsesion"
+        app:layout_constraintVertical_bias="0.315" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
